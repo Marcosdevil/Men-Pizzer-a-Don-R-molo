@@ -8,6 +8,13 @@ import { Component, OnInit } from '@angular/core';
 export class CategoriesComponent implements OnInit {
 
   constructor() { }
+  
+  categories = [
+    "pizzas",
+    "empanadas",
+    "bebidas",
+    "postres"
+  ]
 
   ngOnInit(): void {
   }
