@@ -5,6 +5,7 @@ var Schema = mongoose.Schema;
 
 var orderSchema = Schema({
     
-    User_name: String,
-    Items: Number
+    user_name: String,
+    address: String,
+    items: Number
 });
