@@ -6,6 +6,7 @@ import { CategoriesComponent } from './categories/categories.component';
 import { ProductsComponent } from './products/products.component';
 import { OrderComponent } from './order/order.component';
 import { CheckOutComponent } from './check-out/check-out.component';
+import { HeaderComponent } from './header/header.component';
 
 @NgModule({
   declarations: [
@@ -13,7 +14,8 @@ import { CheckOutComponent } from './check-out/check-out.component';
     CategoriesComponent,
     ProductsComponent,
     OrderComponent,
-    CheckOutComponent
+    CheckOutComponent,
+    HeaderComponent
   ],
   imports: [
     BrowserModule
